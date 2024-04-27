@@ -10,7 +10,7 @@ const Resume = () => {
             data="DivyamSingh-Resume.pdf"
             type="application/pdf"
             width="100%"
-            height="800px"
+            height="700px"
           >
             <p>
               It appears your web browser doesn't support displaying PDFs.
