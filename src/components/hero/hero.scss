@@ -17,6 +17,8 @@
             flex-direction: column;
             justify-content: center;
             gap: 40px;
+            position: relative;
+            z-index: 1;
 
             @include mobile{
                 width: 100%;
@@ -41,6 +43,7 @@
             }
 
             .buttons{
+                display: flex;
                 button {
                     padding: 20px;
                     border: 1px solid white;

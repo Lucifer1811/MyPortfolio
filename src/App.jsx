@@ -6,6 +6,7 @@ import Services from "./components/services/Services";
 import Portfolio from "./components/projects/Projects";
 import Contacts from "./components/contacts/Contacts";
 import Cursor from "./components/cursor/Cursor";
+import Resume from "./components/resume/Resume";
 
 const App = () => {
   return (
@@ -15,11 +16,14 @@ const App = () => {
         <Navbar />
         <Hero />
       </section>
-      <section id="Services">
+      <section id="About">
         <Parallax type="services" />
       </section>
       <section>
         <Services />
+      </section>
+      <section id="Resume">
+        <Resume />
       </section>
       <section id="Projects">
         <Parallax type="projects" />

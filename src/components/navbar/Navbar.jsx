@@ -13,10 +13,10 @@ const Navbar = () => {
                 >Divyam Singh
                 </motion.span>
                 <div className="social">
-                    <a href="#"><img src="/youtube.png" alt="Youtube" /></a>
-                    <a href="#"><img src="/x.png" alt="twitter"/></a>
-                    <a href="#"><img src="/github.png" alt="GitHub"/></a>
-                    <a href="#"><img src="/In-Blue-34.png" alt="LinkedIn"/></a>
+                    <a href="https://twitter.com/SDivyam18" target="_blank"><img src="/x.png" alt="twitter"/></a>
+                    <a href="https://github.com/Lucifer1811" target="_blank"><img src="/github.png" alt="GitHub"/></a>
+                    <a href="https://www.linkedin.com/in/singhdivyam/" target="_blank"><img src="/In-Blue-34.png" alt="LinkedIn"/></a>
+                    <a href="https://www.youtube.com/@DivyamSingh1811" target="_blank"><img src="/youtube.png" alt="Youtube" /></a>
                 </div>
             </div>
         </div>

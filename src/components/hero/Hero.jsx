@@ -50,11 +50,15 @@ const Hero = () => {
         >
           <motion.h2 variants={textVariants}>DIVYAM SINGH</motion.h2>
           <motion.h1 variants={textVariants}>
-            Software developer and UI Designer
+            Software Developer and Programmer
           </motion.h1>
           <motion.div className="buttons" variants={textVariants}>
-            <motion.button variants={textVariants}>Download CV</motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <a href={"#Resume"}>
+              <motion.button variants={textVariants} >Download CV</motion.button>
+            </a>
+            <a href={"#Contact"}>
+              <motion.button variants={textVariants} >Contact Me</motion.button>
+            </a>
           </motion.div>
           <motion.img
             src="/scroll.png"
@@ -73,7 +77,7 @@ const Hero = () => {
         <p>Machine Learing  Data Science  Web Development  C++  Django  PostgreSQL</p>
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="Human" />
+        <img src="/shawn.png" alt="Human" />
       </div>
     </div>
   );

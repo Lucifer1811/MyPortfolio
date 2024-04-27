@@ -61,12 +61,12 @@ const Contacts = () => {
           <span>s.divyam1802@gmail.com</span>
         </motion.div>
         <motion.div variants={variants} className="item">
-          <h2>Address</h2>
-          <span>Ramgarh, Jharkhand</span>
-        </motion.div>
-        <motion.div variants={variants} className="item">
           <h2>Phone</h2>
           <span>+91 6204968748</span>
+        </motion.div>
+        <motion.div variants={variants} className="item">
+          <h2>Address</h2>
+          <span>Ramgarh, Jharkhand</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
