@@ -1,5 +1,6 @@
 import "./resume.scss";
 const Resume = () => {
+
   return (
     <div className="about">
       <div className="resume">
@@ -7,7 +8,7 @@ const Resume = () => {
         <hr/>
         <div class="pdf-container">
           <object
-            data="DivyamSingh-Resume.pdf"
+            data="DivyamSingh-Resume(may).pdf"
             type="application/pdf"
             width="100%"
             height="700px"
@@ -15,12 +16,12 @@ const Resume = () => {
             <p>
               It appears your web browser doesn't support displaying PDFs.
               Please
-              <a href="DivyamSingh-Resume.pdf">click here to download my resume.</a>
+              <a href="DivyamSingh-Resume(may).pdf">click here to download my resume.</a>
             </p>
           </object>
         </div>
         <p>
-          <a href="DivyamSingh-Resume.pdf" download>
+          <a href="DivyamSingh-Resume(may).pdf" download>
             <button>Download CV</button>
           </a>
         </p>
