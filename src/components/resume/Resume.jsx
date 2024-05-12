@@ -20,7 +20,7 @@ const Resume = () => {
           </object>
         </div>
         <p>
-          <a href="DivyamSingh-Resume.pdf" download>
+          <a href="DivyamSingh-Resume(may).pdf" download>
             <button>Download CV</button>
           </a>
         </p>
